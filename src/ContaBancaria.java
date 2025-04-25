@@ -3,6 +3,7 @@ public class ContaBancaria {
     private String titular;
     private double saldo;
 
+    // Construtor padrão
     public ContaBancaria(String numeroConta, String titular, double saldo){
         this.numeroConta = numeroConta;
         this.titular = titular;
